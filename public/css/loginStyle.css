@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f9fa;
+    background-image: url(../assets/camera.png);
+}
+form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Largeur maximale pour les écrans plus grands */
+    width: 100%; /* Assure que le formulaire prend toute la largeur disponible */
+}
+.form-group, .form-check, .d-grid {
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width: 305px) {
+    form {
+        margin: 2rem 3rem;
+    }
+}
+
+@media (min-width: 306px) and (max-width: 614px) {
+    form {
+        margin: 3rem 3rem;
+    }
+}
+
+@media (min-width: 615px) and (max-width: 847px) {
+    form {
+        padding: 4rem 3rem;
+    }
+}
+
+@media (min-width: 848px) and (max-width: 1663px) {
+    form {
+        padding: 4rem 3rem;
+    }
+}
+
+@media (min-width: 1284) {
+    body {
+        background-image: url(../assets/camera-l.png);
+    }
+}
+
+@media (min-height: 877px) {
+    body {
+        background-image: url(../assets/camera-l.png);
+    }
+}
+
+@media (min-width: 1663px) {
+    body {
+        background-image: url(../assets/camera-l.png);
+    }
+    form {
+        padding: 4rem 3rem;
+    }
+}

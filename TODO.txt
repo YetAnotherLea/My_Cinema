@@ -1,0 +1,10 @@
+//TODO : Cmt faire une view phpmyadmin : envoyer strucuture en précisant liaisons avec movie
+//TODO : Php pdo bindvalue
+
+//Faire un onglet Recherche films (avec nom et filtre genre et distributeurs)
+//Faire un onglet utilisateurs (recherche par nom/prénom)
+//Système de pagination
+
+//Régler pb assets login.php
+
+//Voir vidéo organisation github
